@@ -22,7 +22,7 @@ const Searchbar = (props) => {
   return (
     <div className={`${ dis == false ? 'displaNone' : 'dis'}` }>
       <div className="searchbar">
-        <form onSubmit={onClick}>
+        <form onSubmit={onClick} >
           <input placeholder="Buscar pokemon" onChange={onChange}/>
         </form>
       </div>
